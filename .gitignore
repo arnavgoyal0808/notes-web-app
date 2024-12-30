@@ -1,0 +1,33 @@
+## Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+
+# Django-specific files
+db.sqlite3
+media/
+staticfiles/
+
+# Environments
+.env
+*.env
+
+# Local development settings
+/local_settings.py
+
+# VSCode (if you use it)
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# MySQL-related files
+data/mysql/db/*.sock
+data/mysql/db/*.cnf
+data/mysql/db/binlog.index
+data/mysql/db/ib_buffer_pool
